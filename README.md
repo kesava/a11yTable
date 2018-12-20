@@ -1,4 +1,4 @@
-# a11yTable
+# a11ytable
 
 This is a simple accessible hidden table to supplant charts for voice readers.
 
@@ -12,7 +12,7 @@ const data = [
 ];
 
 const headers = { "name" : "User name", "age": "User age", "link": "Homepage" };
-const table = new a11yTable({ headers, data });
+const table = new a11ytable({ headers, data });
 
 document.getElementById('chart-hidden-table').innerHTML = table.render();
 ```
@@ -23,10 +23,10 @@ document.getElementById('chart-hidden-table').innerHTML = table.render();
 
 #### Table of Contents
 
--   [a11yTable](#a11ytable)
+-   [a11ytable](#a11ytable)
     -   [Parameters](#parameters)
 
-### a11yTable
+### a11ytable
 
 This function takes header settings and data to generate a HTML table string.
 

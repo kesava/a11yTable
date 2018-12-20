@@ -1,6 +1,6 @@
-import a11yTable from "../src";
+import a11ytable from "../src";
 
-test("a11yTable", () => {
+test("a11ytable", () => {
   const data = [
     { "name":"Larry Wall", "age":57, "link": "<a href='http://www.wall.org/~larry/'>www.wall.org/~larry/</a>" },
     { "name":"Bill Gates", "age":56, "link": "<a href='http://www.microsoft.com'>www.microsoft.com</a>" },
@@ -8,8 +8,8 @@ test("a11yTable", () => {
   ];
   const headers = { "name" : "User name", "age": "User age", "link": "Homepage" };
 
-  const emptyTable = new a11yTable({});
-  const table = new a11yTable({ headers, data, caption: 'This is a test Table' });
+  const emptyTable = new a11ytable({});
+  const table = new a11ytable({ headers, data, caption: 'This is a test Table' });
 
   const emptyTableString = `<table class='visually-hidden'>
   <caption></caption>

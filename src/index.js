@@ -6,7 +6,7 @@
  * @returns An html table string.
  */
 
-class a11yTable {
+class a11ytable {
   constructor({ headers=[], data=[], caption='' }) {
       this.headers = headers;
       this.data = data;
@@ -58,4 +58,4 @@ class a11yTable {
 
 }
 
-export default a11yTable;
+export default a11ytable;
