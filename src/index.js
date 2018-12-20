@@ -1,9 +1,9 @@
 // @flow
 
 /**
- * This function says hello.
- * @param name Some name to say hello for.
- * @returns The hello.
+ * This function takes header settings and data to generate a HTML table string.
+ * @param obj Generic es6 destructuring params.
+ * @returns An html table string.
  */
 
 class a11yTable {
