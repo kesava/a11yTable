@@ -1,6 +1,6 @@
 {
   "name": "a11yTable",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Creates a hidden accessible table.",
   "license": "MIT",
   "repository": "kmallela/a11Table",
